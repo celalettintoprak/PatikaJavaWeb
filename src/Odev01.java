@@ -1,3 +1,5 @@
+// Patika.dev Java 101 Ödev 1
+
 import java.util.Scanner;
 
 public class Odev01 {
