@@ -1,4 +1,4 @@
-// Patika.dev Java 101 Ödev 7
+// Patika.dev Java 101 Ödev 8
 
 /*
   Videodaki hesap makinesini switch-case kullanarak yapınız.
@@ -48,6 +48,5 @@ public class Odev08 {
             default:
                 System.out.println("Geçersiz işlem");
         }
-
     }
 }
