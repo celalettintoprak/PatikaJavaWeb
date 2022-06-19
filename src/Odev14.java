@@ -1,4 +1,4 @@
-// Patika.dev Java 101 Ödev 13
+// Patika.dev Java 101 Ödev 14
 
 /*
   Java ile mesafeye ve şartlara göre uçak bileti fiyatı hesaplayan programı yapın.
