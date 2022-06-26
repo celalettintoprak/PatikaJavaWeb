@@ -11,9 +11,8 @@
 
   Fibonacci dizisi 0'dan başlar ve sonsuza kadardır. Her sayı, bir önceki sayıyla toplanır.
   Elde edilen sonuç sayının sağına yazılır. Fibonacci dizisinin ilk on sayısı şöyledir:
-  9 Elemanlı Fibonacci Serisi : 0 1 1 2 3 5 8 13 21 34
+  9 Elemanlı Fibonacci Serisi : 1 1 2 3 5 8 13 21 34
 
-  0 + 1 = 1
   1 + 1 = 2
   1 + 2 = 3
   2 + 3 = 5
@@ -42,7 +41,7 @@ public class Odev31 {
     }
 
     public static void fibonacci (int sayi, int[] dizi) {
-        dizi[0] = 0;
+        dizi[0] = 1;
         dizi[1] = 1;
         for (int i = 2; i < sayi; i++) {
             dizi[i] = dizi[i - 1] + dizi[i - 2];
