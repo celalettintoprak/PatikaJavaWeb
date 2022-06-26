@@ -1,4 +1,4 @@
-//  Patika.dev Java 101 Ödev 26
+//  Patika.dev Java 101 Ödev 27
 
 /*
   Java ile klavyeden girilen N tane sayma sayısından en büyük ve

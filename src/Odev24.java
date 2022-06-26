@@ -33,7 +33,7 @@ public class Odev24 {
             for (int k = 1; k <= (2 * i + 1); k++) {
                 System.out.print("*");
             }
-            System.out.println(" ");
+            System.out.println();
         }
 
         for (int i = sayi-1; i >= 0; i--) {
@@ -43,7 +43,7 @@ public class Odev24 {
             for (int k = (2 * i + 1); k >= 1; k--) {
                 System.out.print("*");
             }
-            System.out.println(" ");
+            System.out.println();
         }
     }
 }

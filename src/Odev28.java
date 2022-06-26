@@ -1,4 +1,4 @@
-//  Patika.dev Java 101 Ödev 26
+//  Patika.dev Java 101 Ödev 28
 
 /*
   Klavyeden girilen bir sayının mükemmel sayı olup/olmadığını bulan ve sayı
