@@ -28,6 +28,7 @@ public class Odev33 {
         }
     }
 
+    // Recursive metod
     public static int fib(int sayi) {
         if (sayi == 0 || sayi == 1) {
             return 1;
