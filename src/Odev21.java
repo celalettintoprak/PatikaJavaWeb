@@ -31,7 +31,7 @@ public class Odev21 {
             if (us < 0) {
                 pozitifKuvvet = -1 * us;
             } else {
-                pozitifKuvvet =  us;
+                pozitifKuvvet = us;
             }
             for (int i = 0; i < pozitifKuvvet; i++) {
                 toplam *= taban;
