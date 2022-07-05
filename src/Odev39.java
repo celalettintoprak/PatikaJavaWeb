@@ -12,9 +12,9 @@ import java.util.Random;
 
 public class Odev39 {
     public static void main(String[] args) {
-        Fighter f1 = new Fighter("Bora",60,100);
-        Fighter f2 = new Fighter("Ahmet",58,100);
-        Ring r1 = new Ring(f1,f2,"ABD");
+        Fighter f1 = new Fighter("Yılmaz",86,180);
+        Fighter f2 = new Fighter("Şevket",79,215);
+        Ring r1 = new Ring(f1,f2,"TUR");
         r1.baslat();
     }
 }
@@ -49,11 +49,10 @@ class Ring {
         }
         fight();
     }
-    void fight(){
+    void fight() {
         int round = 1;
         while(this.f1.health > 0 && this.f2.health > 0) {
             System.out.println("=== "+this.name + " Ringinde Round - " + round + " ===");
-
             int f1_dmg = rand.nextInt(20);
             int f2_dmg = rand.nextInt(20);
             if(baslayan == 0) {
@@ -74,16 +73,14 @@ class Ring {
                 f2.health = 0;
             }
 
-
             System.out.println(this.f1.name + " kalan canı : "+ this.f1.health);
             System.out.println(this.f2.name + " kalan canı : "+ this.f2.health);
-            System.out.println("=======================================");
+            System.out.println("===============================");
             round++;
         }
         kazanan();
     }
-    void kazanan()
-    {
+    void kazanan() {
         if (f1.health == 0 && f2.health == 0) {
             System.out.println("Berabere !");
         } else if (f1.health == 0) {
