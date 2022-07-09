@@ -1,13 +1,13 @@
 //  Patika.dev Java 101 Ödev 43
 
 /*
-  Dizideki Elemanların Max ve Min Değerlerini Bulan Program
+  Çok boyutlu dizileri kullanarak ekrana "B" harfi yazan programı yazınız.
 */
 
 public class Odev43 {
     public static void main(String[] args) {
         String[][] dizi = new String[7][4];
-        filler(new Numbers().four);
+        filler(new Numbers().letterB);
     }
 
     public static void filler(String[][] dizi) {
@@ -50,5 +50,8 @@ class Numbers {
                 {"X", " ", " ", "X"}, {"X", " ", " ", "X"}, {"X", "X", "X", "X"}},
             nine = {
                 {"X", "X", "X", "X"}, {"X", " ", " ", "X"}, {"X", " ", " ", "X"}, {"X", "X", "X", "X"},
-                {" ", " ", " ", "X"}, {" ", " ", " ", "X"}, {"X", "X", "X", "X"}};
+                {" ", " ", " ", "X"}, {" ", " ", " ", "X"}, {"X", "X", "X", "X"}},
+            letterB = {
+                {"X", "X", "X", " "}, {"X", " ", " ", "X"}, {"X", " ", " ", "X"}, {"X", "X", "X", " "},
+                {"X", " ", " ", "X"}, {"X", " ", " ", "X"}, {"X", "X", "X", " "}};
 }
