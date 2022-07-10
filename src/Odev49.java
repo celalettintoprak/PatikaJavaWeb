@@ -6,9 +6,7 @@
   Örnek : ada , asa , kavak, kayak, teğet
 */
 
-import java.util.Random;
 import java.util.Scanner;
-import java.util.StringJoiner;
 
 public class Odev49 {
     public static void main(String[] args) {
