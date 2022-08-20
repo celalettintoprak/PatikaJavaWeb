@@ -27,7 +27,7 @@ public class RaceOfThreads {
         List<Integer> evenNumber = new ArrayList<>(); // çift sayı
 
         addNumbers(mainList);
-        System.out.println("Main array size: " + mainList.size());
+        System.out.println("Main list size: " + mainList.size());
 
         List<Integer> list1 = mainList.subList(0, (2500 + 1));
         List<Integer> list2 = mainList.subList(2501, (5000 + 1));
