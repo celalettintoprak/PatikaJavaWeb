@@ -6,4 +6,5 @@
 * FİYATLARA PATİKA KOMİSYONU EKLENECEK
 * MİSAFİR BİLGİLERİNDEN ÇOCUK SAYISI OTOMATİK HESAPLANACAK
 
+Screenshot:
 ![Ana Sayfa & Services](Ekran%20Resmi.jpg)
