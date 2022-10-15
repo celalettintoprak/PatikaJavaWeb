@@ -1,0 +1,5 @@
+Java 102 Patikası'nda Java Öğreniyorum.
+
+Türkçe karakterlerin okunuşu ile ilgili testler yapıyoruz.
+
+Ç Ğ İ Ö Ş Ü / ç ğ ı ö ş ü
